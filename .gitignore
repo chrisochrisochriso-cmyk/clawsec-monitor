@@ -1,0 +1,17 @@
+# Runtime artifacts — never commit
+/tmp/clawsec/
+*.pid
+threats.jsonl
+clawsec.log*
+ca.key
+ca.crt
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+
+# macOS
+.DS_Store
